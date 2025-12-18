@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- Color theme for statusbar (Android only) -->
+    <meta name="theme-color" content="#2196f3">
+    <!-- Your app title -->
+    <title>Prueba</title>
+    <!-- Path to Framework7 Library Bundle CSS -->
+    <link rel="stylesheet" href="node_modules/framework7/framework7-bundle.min.css">
+    <!-- Path to your custom app styles-->
+    <link rel="stylesheet" href="app.css">
+  </head>
+  <body>
+    <!-- App root element -->
+<div id="app">
+  
+  <div class="panel panel-left panel-reveal panel-init"
+       data-visible-breakpoint="1024"
+       data-collapsed-breakpoint="768"
+       data-swipe="true"
+       style="width:250px">
+
+
+<div class="view view-init" data-url="/" id="secundo">
+        <div class="page">
+          <div class="navbar">
+            <div class="navbar-bg"></div>
+            <div class="navbar-inner sliding">
+              <div class="title" > <h3>Dragon Ball</h3></div>
+            </div>
+          </div>
+          <div class="page-content">
+            <div class="block-title"> <h1>Panel</h1></div>
+            <div class="list links-list">
+                <ul>
+                  <li><a href="/prueba/" data-view=".view-main" class="panel-close link">Personajes</a></li>
+                  <li><a href="/planetas/" data-view=".view-main" class="panel-close link">Planetas</a></li>
+                </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+
+
+<div class="view view-main view-init" data-url="/" id = "mainmain">
+    <div data-name="home" class="page">
+      <!-- NAVBAR -->
+      <div class="navbar">
+        <div class="navbar-bg"></div>
+        <div class="navbar-inner">
+        </div>
+      </div>
+      <!-- PAGE CONTENT -->
+    <div class="page-content display-flex justify-content-center align-items-center no-scroll">
+      <img src="https://i.blogs.es/55492f/orden-dragon-ball/1200_630.jpeg" class="full-image">
+    </div>
+    </div>
+  </div>
+</div>
+
+    </div>
+    <!-- Path to Framework7 Library Bundle JS-->
+    <script type="text/javascript" src="node_modules/framework7/framework7-bundle.min.js"></script>
+    <!-- Path to your app js-->
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>
